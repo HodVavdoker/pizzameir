@@ -1,0 +1,57 @@
+.div1{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.div2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+}
+.div3{
+    flex: auto;
+    min-width: 100%;
+}
+.div4{
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
+    width: 60%;
+    float:right;
+}
+.div5{
+    padding-right: 5px;
+    width: auto;
+    float: right;
+    width: 30%;
+    height: 133px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:#FF0000;
+}
+.h3{
+   text-align: center;
+}
+
+.img{
+    width: 300px;
+    height: 133px;
+    opacity:0.9 ;
+}
+.h1{
+    text-align: center;
+    color: white;
+    
+}
+.imgheader{
+    margin-top: 10px;
+    width: auto;
+    height:60px;
+    float: right;
+    text-align: center;
+}

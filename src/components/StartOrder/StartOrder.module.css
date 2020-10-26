@@ -1,0 +1,66 @@
+.h1{
+    color:#8e0000;
+}
+.Button{
+    margin:0 auto;
+    border: none;
+    display: block;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+    
+ }
+ .Button1{
+    margin:0 auto;
+    border: none;
+    position: relative;
+    display: block;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: #008000;
+    font-size: 30px;
+    font-family: 'Rubik';
+ }
+ .Button2{
+    font-size: 30px;
+    border: none;
+    margin:0 auto;
+    position: relative;
+    display: block;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: red;
+    font-family: 'Rubik';
+ }
+ .li{
+    border: 0;
+    border-bottom: 1px solid #b5b6bd;
+    padding-bottom: 18px;
+    position: relative;
+    font-family: 'Rubik';
+}
+.header {
+    border: 0;
+    border-bottom: 1px solid #b5b6bd;
+    background-color: #c6102e;
+    color: white;
+}
+.btnback{
+
+    background-image: url(https://d2pnvdnftoj8zk.cloudfront.net/wp-content/uploads/sites/5/2019/12/09101041/GO.svg);
+    content: '';
+    width: 20px;
+    height: 20px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    left: 10px;
+    right: auto;
+    border: 0;
+    top: calc(50% - 10px);
+    z-index: 3;
+}

@@ -1,0 +1,38 @@
+.Button{
+    margin:0 auto;
+    border: none;
+    display: block;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    
+
+    font-size: 30px;
+ }
+ .Button1{
+    margin:0 auto;
+    border: none;
+    position: relative;
+    display: block;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: #008000;
+    font-size: 30px;
+   
+ }
+ .Button2{
+    font-size: 30px;
+    border: none;
+    margin:0 auto;
+    position: relative;
+    display: block;
+    height: 10%;
+    width: 100%;
+    color: white;
+    background-color: red;
+
+ }
+ .Button,.Button1,.Button2{
+   font-family: 'Rubik';
+ }

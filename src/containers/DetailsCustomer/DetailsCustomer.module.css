@@ -1,0 +1,43 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    background-color: white;
+  }
+.table{
+    display: inline-block;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .tr{
+    padding:10px;
+    text-align: right;
+  }
+  .td{
+    padding:10px;
+    text-align: right;
+  }
+  .button{
+      
+        border: none;
+        background: none;
+        height: 100%;
+        font-weight: 700;
+        color: black;
+        letter-spacing: 1px;
+        font-size: inherit;
+        transition: all 0.3s;
+        outline: none;
+    }
+    
+    button:hover {
+        color: white;
+        background: black;
+    }
+    
+ 
