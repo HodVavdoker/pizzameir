@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './StartOrder.module.css';
-import { useHistory } from "react-router-dom";
+
+import { motion } from "framer-motion";
 
 const startorder = (props) =>{
-    //let history = useHistory();
-
-    // const openDetailsDelivery = () => {
-        
-    //     history.push('/detailsdelivery');
-        
-    // }
+    console.log(props.pageVariants);
     return(
+        <motion.div     
+        initial="initial"
+        animate="in"
+        exit="out"
+        
+        variants={props.pageVariants}
+        transition={props.pageTransition}>
         <div>
              <button className = {classes.btnback}
                      onClick = {props.goingback}></button>  
@@ -34,7 +36,9 @@ const startorder = (props) =>{
                    </ul>
                </div>
             </section>
+            
         </div>
+        </motion.div>
     );
 }
 export default startorder;

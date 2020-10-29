@@ -16,19 +16,19 @@ const sizeofpizza = (props) =>{
   },
   out: {
     opacity: 0,
-    x: "100vw",
+    x: "-100vw",
   }
 };
-    const pageTransition = {
-  transition : "linear"
-};
+//     const pageTransition = {
+//      duration: 3
+// };
     return(
   <motion.div     
      initial ="out"
      animate ="in"
      exit= "out"
      variants={pageVariants}
-     transiton={pageTransition}
+    // transiton={pageTransition}
      className = {classes.div1}>
     <header className = {classes.header}>
         <h1 className = {classes.h1}>בחר גודל

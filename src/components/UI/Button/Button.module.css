@@ -1,0 +1,25 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+.Right{
+    background: linear-gradient(to right, white 50%, #8e0000 50%);
+}
+.Left{
+    background: linear-gradient(to right, #8e0000 50%, white 50%);
+}
+.Full{
+    background:#8e0000;
+}

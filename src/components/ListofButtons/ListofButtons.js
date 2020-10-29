@@ -14,8 +14,8 @@ const listofbuttons = (props) => {
                         
                         תפריט</button>   
                 <button className= {classes.Button2}
-                        
-                        onClick = {()=>props.opennextpage("/Sales")}
+                        onClick = {props.showextras}
+                        //onClick = {()=>props.opennextpage("/Sales")}
                         >מבצעים</button>
         </div>
     );

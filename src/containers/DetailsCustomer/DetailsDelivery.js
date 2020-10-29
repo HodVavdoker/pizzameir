@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import Auxilary from '../../hoc/Auxilary/Auxilary';
 //import axios from '../../axios-orders';
 import classes from './DetailsDelivery.module.css';
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 class DetailsDelivery extends Component{
 

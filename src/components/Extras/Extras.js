@@ -1,10 +1,21 @@
 import React from 'react';
 import Modal from '../Modal/Modal';
 import classes from './Extras.module.css';
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useHistory } from "react-router-dom";
+import PizzaSlices from '../PizzaSlices/PizzaSlices';
+
 
 const extras = (props) =>{
+    let flag = false;
+    const modal =
+     <Modal show={true}>
+        <PizzaSlices></PizzaSlices>
+     </Modal>
+  const changeflag = () =>{
+        flag  = !flag;
+        console.log(flag);
+}
   const changepage = () =>{
     console.log("Great");
      props.history.push('/ChooseExtras');
@@ -54,7 +65,8 @@ onClick ={changepage}>
 
 </div>
 
-<div className={classes.div1}>
+<div className={classes.div1}
+     >
 <div className={classes.div2}>
 <div className={classes.div3}>
     <div className={classes.div4}>
@@ -113,7 +125,8 @@ onClick ={changepage}>
 </div>
 </div>
 
-<div className={classes.div1}>
+<div className={classes.div1}
+     onClick={changeflag}>
 <div className={classes.div2}>
 <div className={classes.div3}>
     <div className={classes.div4}>
@@ -124,7 +137,7 @@ onClick ={changepage}>
 </div>
 </div>
 </div>
-
+    {flag ? null : modal }
 </motion.div>
     );
 

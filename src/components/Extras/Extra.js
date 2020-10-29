@@ -1,27 +1,8 @@
 import React from 'react';
-import Modal from '../Modal/Modal';
 import classes from './Extras.module.css';
-import { AnimatePresence, motion } from "framer-motion";
-import { useHistory } from "react-router-dom";
+
 
 const extra = (props) =>{
-  const changepage = () =>{
-    console.log("Great");
-     props.history.push('/ChooseExtras');
-}
-    const pageVariants = {
-  in: {
-    opacity: 1,
-    x: 0,
-  },
-  out: {
-    opacity: 0,
-    x: "100vw",
-  }
-};
-    const pageTransition = {
-  transition : "linear"
-};
     return(
  <div>
     <header className = {classes.header}>

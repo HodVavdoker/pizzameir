@@ -1,0 +1,63 @@
+.PizzaSlice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.PizzaSlice button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    height: 35px;
+    width: 35px;
+    border:  0.002em solid black;
+    cursor: pointer;
+    outline: none;
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.PizzaSlice button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.PizzaSlice button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.PizzaSlice .Right {  
+    background: linear-gradient(to right, white 50%, grey 50%);
+}
+
+.PizzaSlice .Right:hover, .Right:active{
+    background: linear-gradient(to right, white 50%, #8e0000 50%);
+}
+
+.PizzaSlice .Left {
+    background: linear-gradient(to right, grey 50%, white 50%);
+}
+.PizzaSlice .Left:hover, .Left:active{
+    background: linear-gradient(to right, #8e0000 50%, white 50%);
+}
+
+.PizzaSlice .Full {
+    background: grey;
+}
+.PizzaSlice .Full:hover, .Full:active{
+    background: #8e0000;
+}
